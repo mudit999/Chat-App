@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.leftSide{
+    flex: 1;
+    padding: 25px;
+}
+
+.middleSide{
+    flex: 3;
+    padding: 25px;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    padding: 25px;
+}

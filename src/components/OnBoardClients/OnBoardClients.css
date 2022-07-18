@@ -1,0 +1,39 @@
+.OnBoardClients{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    width: 250px;
+    background-color: #f5f7fb;
+    padding: 8px;
+}
+
+.telegram{
+    width: 25px;
+    height: 25px;
+}
+
+.linkBtn{
+    display: flex;
+    border: 1px solid black;
+    width: 110px;
+    height: 30px;
+    padding: 5px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    background-color: #0f4cff;
+    color: white;
+    border-radius: 5px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.textCenter{
+    text-align: center;
+}

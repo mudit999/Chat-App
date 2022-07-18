@@ -1,0 +1,50 @@
+.ChatSpace{
+    border: 1px solid black;
+    width: 800px;
+    height: 675px;
+    border-radius: 10px;
+    background-color: #f3f6fb;
+}
+
+.chatItem{
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+
+.ChatSpace input{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.chatSendBtn{
+    background-color: #0f4cff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.chatInputSection{
+    display: fixed;
+    bottom: 0;
+}
+
+.chatInputSubmit{
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatHistory{
+    height: 85vh;
+}

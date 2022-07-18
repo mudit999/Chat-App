@@ -1,0 +1,60 @@
+.userCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+    width: 180px;
+    border-radius: 10%;
+    gap: 10px;
+    background-color: #f5f8fc;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.quickChat{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.quickChatName{
+    font-size: large;
+    font-weight: bold;
+}
+
+.chatIcon{
+    width: 60px;
+    height: 50px;
+}
+
+.nameHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggleBtn{
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.personImage{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.settingImage{
+    width: 20px;
+    height: 20px;
+}
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 10%;
+    gap: 10px;
+    background-color: #f5f7fb;
+    padding: 10px;
+}
+
+.nameH{
+    gap: 20px;
+}
+
+.headingPart1{
+    display: flex;
+    gap: 8px;
+}
+
+.headingArchive{
+    display: flex;
+    border: 1px solid #00008B;;
+    gap: 8px;
+    padding: 3px;
+    color: #00008B;
+    cursor: pointer;
+}
+
+.personImage{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.settingImage{
+    width: 20px;
+    height: 20px;
+}
+
+p{
+    margin: 0;
+}
+
+.imageStyle{
+    width: 20px;
+    height: 20px;
+}

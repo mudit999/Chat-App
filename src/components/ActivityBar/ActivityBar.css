@@ -1,0 +1,6 @@
+.activityDot{
+    height: 5px;
+    width: 5px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+}

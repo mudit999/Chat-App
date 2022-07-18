@@ -1,0 +1,66 @@
+.activityCard{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 280px;
+    background-color: #f9fafd;
+    padding: 10px;
+}
+
+.mainContainer{
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center
+}
+
+.item{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 9px;
+    width: 80px;
+    align-items: center;
+}
+
+.sidebarIcons{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.smallText{
+    font-size: 8px;
+}
+
+.activityHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 230px;
+    margin-top: 20px;
+}
+
+.currentWeekText{
+    font-size: large;
+    font-weight: bold;
+}
+
+.activityText{
+    font-size: small;
+}
+
+.heightBars{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-evenly
+}
